@@ -1,0 +1,88 @@
+.main__header-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.main__title-wrapper {
+	background-color: #b1f9d2;
+	width: 880px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	border-radius: 12px;
+	margin-bottom: 8px;
+	margin-top: 12px;
+	box-shadow: 4px 4px 4px 0px rgba(34, 60, 80, 0.2);
+}
+.main__title {
+	/* Стили текста */
+	font-size: 24px;
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+}
+.main__disclaimer {
+	align-self: center;
+	margin-bottom: 40px;
+	/* Стили текста */
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+.games-gallery-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 20px;
+	/*! потом доделать адаптив */
+	overflow: hidden;
+	width: 100%;
+	height: 420px;
+}
+
+/* ! Общие стили секторов */
+.gallery-sector {
+	height: 200px;
+	background-color: #7bfbc5;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	overflow: hidden;
+}
+/* .gallery-sector__image{
+	
+} */
+.discription-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 200px;
+}
+.discription-wrapper__name {
+	align-self: center;
+	margin-top: 15px;
+	/* Стили текста */
+	font-family: "Inter", sans-serif;
+	font-size: 34px;
+	font-weight: 400;
+}
+.discription-wrapper__discription {
+	margin-bottom: 50px;
+	align-self: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	/* Стили текста */
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.main__end-text {
+	margin-top: 48px;
+
+	height: 68px;
+	text-align: center;
+	margin-bottom: 40px;
+	/* Стили текста */
+	font-family: "Inter", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
