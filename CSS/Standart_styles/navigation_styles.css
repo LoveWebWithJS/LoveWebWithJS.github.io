@@ -51,7 +51,7 @@ a.links__link {
 }
 
 /*! Адаптив */
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
 	.links-wrapper {
 		margin-left: 175px;
 		margin-right: 175px;

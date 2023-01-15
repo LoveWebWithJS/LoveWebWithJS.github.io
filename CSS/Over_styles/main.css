@@ -45,15 +45,17 @@
 	height: 225px;
 	background-color: #5f3473;
 	border-radius: 15px;
-	padding-top: 30px;
+	/* padding-top: 20px; */
 }
 .hello-user__this-is-not-button {
 	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 .hello-user__header-4 {
-	letter-spacing: 10%;
-	font-size: 64px;
-	margin-left: 200px;
+	letter-spacing: 5px;
+	font-size: 96px;
+	margin-left: 250px;
 	color: #53a356;
 	/* color: white; */
 }

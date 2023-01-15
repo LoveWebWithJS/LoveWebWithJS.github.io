@@ -6,12 +6,12 @@
 	justify-content: center;
 	height: 100px;
 	width: 100%;
-	background-color: #CCFFD7;
+	background-color: #ccffd7;
 	backdrop-filter: blur(3px);
 }
 .header {
 	padding: 3px;
-	background-color: #CCFFD7;
+	background-color: #ccffd7;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -23,7 +23,7 @@
 .container-center__main-header {
 	border-bottom: 2px solid black;
 	/* Основные стили текста */
-	font-family: 'Inter', sans-serif;
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-size: 34px;
 }
@@ -31,5 +31,5 @@
 	height: 70px;
 }
 .logo__logo {
-	height: 70px
+	height: 70px;
 }
