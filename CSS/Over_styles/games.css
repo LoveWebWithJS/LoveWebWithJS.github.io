@@ -38,6 +38,7 @@
 	overflow: hidden;
 	width: 100%;
 	height: 420px;
+	padding: 20px;
 }
 
 /* ! Общие стили секторов */
@@ -86,3 +87,12 @@
 	font-size: 24px;
 	font-weight: 600;
 }
+
+/* MEDIA запросы */
+
+/* @media (min-width: 1710px;) {
+	.games-gallery-wrapper {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+} */
