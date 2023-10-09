@@ -1,9 +1,0 @@
-.wrapper {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 100px 70px 1fr 300px;
-	grid-template-areas: "header" "nav" "main" "footer";
-	position: absolute;
-	height: 100%;
-	width: 100%;
-}
