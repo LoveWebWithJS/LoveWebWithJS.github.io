@@ -1,2 +1,3 @@
 # LoveWebWithJS.github.io
-This is my project
+Это личный проект начинающего разработчика о Penspinning
+Никому не предоставит никакой пользы, ибо мельче Junior никого по факту нет)
