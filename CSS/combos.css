@@ -368,7 +368,7 @@ header{
     flex-direction: column;
     align-items: center;
     align-self: center;
-    min-height: 292px;
+    min-height: 192px;
     width: 100%;
     margin: 0 auto;
 }
@@ -388,7 +388,12 @@ header{
     max-width: 824px;
     font-size: 20px;
 }
-
+@media (max-width: 550px) {
+    .combos-and-links-wrapper__btmm-txt {
+        max-width: auto;
+        font-size: 20px;
+    }
+}
 
 
 
