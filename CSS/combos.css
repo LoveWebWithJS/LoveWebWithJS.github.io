@@ -388,12 +388,14 @@ header{
     max-width: 824px;
     font-size: 20px;
 }
+
 @media (max-width: 550px) {
     .combos-and-links-wrapper__btmm-txt {
         max-width: auto;
         font-size: 20px;
     }
 }
+
 
 
 
