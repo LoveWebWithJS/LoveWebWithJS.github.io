@@ -329,8 +329,57 @@ header{
         font-size: 16px;
     }
 }
-
-
+/* Кнопка вверх */
+button.up-btn{
+    display: none;
+}
+.up-btn._active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    z-index: 4;
+    right: 7%;
+    bottom: 7%;
+    position: fixed;
+    height: 70px;
+    min-width: 150px;
+    background-color: #FFCCFF;
+    border: 0 solid black;
+    border-radius: 15px;
+}
+.up-btn > p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.up-btn::after{
+    content: "";
+    background: url(../IMG/arrowUp.png);
+    height: 30px;
+    width: 30px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out 0.3s;
+}
+.up-btn:hover::after{
+    transition: all 1s ease-in-out 0.2s;
+    /* animation: name duration timing-function count direction delay fill-mode; */
+    animation: arrow-up-down 0.5s  ease-in-out 1 normal 0.2s none;
+}
+@keyframes arrow-up-down{
+    0%{
+        transform: scale(1) translateY(0px) translateX(0px);
+    }
+    50%{
+        transform: scaleY(1.4) translateY(-20px) translateX(2px);
+    }
+    100%{
+        transform: scale(1) translateY(0px) translateX(0px);
+    }
+}
 
 
 .combos-and-links {
@@ -392,10 +441,6 @@ header{
         font-size: 20px;
     }
 }
-
-
-
-
 footer{
     height: 50px;
     background-color: #FF66FF;
