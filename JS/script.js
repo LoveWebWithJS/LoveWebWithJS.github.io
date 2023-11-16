@@ -1,11 +1,11 @@
-let mainElement = document.documentElement
-let mainElementHeight = mainElement.clientHeight
-let mainElementWeight = mainElement.clientWidth
+let mainElement = document.documentElement;
+let mainElementHeight = mainElement.clientHeight;
+let mainElementWeight = mainElement.clientWidth;
 
 // ! Отмена анимации
 if(mainElementWeight < 550){
     console.log("Ширина меньше 550px");
-    let headerBody = document.querySelector(".header-wrapper__body")
+    let headerBody = document.querySelector(".header-wrapper__body");
     let elementsWithAnimationHeaderBody = headerBody.querySelectorAll('.animate__animated')
     for(let i = 0; i < elementsWithAnimationHeaderBody.length; i++){
         elementsWithAnimationHeaderBody[i].classList.remove('animate__animated')
